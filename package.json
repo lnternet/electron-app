@@ -1,0 +1,13 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jaroslav Vercinskij",
+  "devDependencies": {
+    "electron": "^3.0.7"
+  }
+}
