@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+#menu_area {
+  background-color: silver;
+  flex: 1;
+  height:100vh;
+}
+
+#viewer_area {
+  flex: 3;
+  height:100vh;
+}

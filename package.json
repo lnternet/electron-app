@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build-exe": "electron-packager ./ MyApp"
   },
-  "author": "Jaroslav Vercinskij",
   "devDependencies": {
-    "electron": "^3.0.7"
+    "electron": "^3.0.7",
+    "electron-packager": "^12.2.0"
   }
 }

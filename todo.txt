@@ -1,0 +1,5 @@
+Next tasks:
+
+1) When loading files separate them by file type.
+2) Instead of <ul> use clickable buttons for files.
+3) When clicking button which is related to HTML file, load that HTML in the #webpage.

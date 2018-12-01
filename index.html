@@ -2,12 +2,20 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Electron app!</title>
+     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <button id="btnEd">Click me!</button>
-    <script>
-      require('./renderer.js')
-    </script>
+    <div id="menu_area">
+      <input type="text" id="path_input"/ placeholder="Path to some folder...">
+      <button id="path_button">List content</button>
+      <div style="overflow-y: scroll; height:inherit; border:1px solid black;">
+        <ul id="path_list"></ul>
+      </div>
+    </div>
+    <div id="viewer_area">
+        <div id="webpage" style="overflow-y: scroll; height:inherit; border:1px solid black;"></div>
+    </div>
+    <script>require('./renderer.js')</script>
   </body>
 </html>
